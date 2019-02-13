@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>To Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <script src="assets/js/tryingtofixID.js"></script>
+    <div class="div_stylizer-top">
+      <div class="container">
+        <header id="title">
+          <h1><span>T</span>o <span>D</span>o <span>L</span>ist</h1>
+          <input id="inputLi" placeholder="What do You need to do ?" />
+          <button id="add_button">+</button>
+          <div class="clear"></div>
+        </header>
+      </div>
+    </div>
+    <br />
+    <!-- the list -->
+    <div class="div_stylizer-bot">
+      <div class="container">
+        <div class="theList_div">
+          <ul id="ul_element">
+            <li id="li_element" class="li_element" data-id="1">
+              <p id="p1" class="toDoText">have JS lesson</p>
+              <p class="editForm" style="display:none;">
+                <input class="editInput" />
+                <button data-id="1" class="acceptEdit">✔</button>
+                <button data-id="1" class="declineEdit">✘</button>
+                <button data-id="1" id="delete_button" class="deleteButton">
+                  !
+                </button>
+              </p>
+              <button id="edit_button" class="editButton" type="button" data-id="1">
+                E
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

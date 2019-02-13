@@ -1,0 +1,174 @@
+// out: ../css/style.css, compress: false, sourceMap: true
+
+@import "reset.less";
+
+body {
+  background-color: #345995;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+span {
+  color: #345995;
+}
+header {
+  font-style: italic;
+  color: #ff6b6c;
+  font-size: 4em;
+  padding: 0;
+  letter-spacing: 5px;
+  h1 {
+    font-size: 45px;
+    margin: 2%;
+    background: #f9dc5c;
+    border-bottom: rgb(243, 185, 68) 5px solid;
+    border-radius: 10px;
+  }
+}
+
+.div_stylizer-top,
+.div_stylizer-bot {
+  width: 98%;
+  max-width: 750px;
+  margin: 10px auto;
+  padding: 5px;
+  border: 2px solid #ffc145;
+  border-radius: 10px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+.div_stylizer-bot {
+  border: 2px solid #ffc145;
+  border-radius: 10px;
+  border-left: 0px;
+  border-right: 0px;
+  margin: 0 auto;
+}
+.container {
+  margin: 0px auto;
+  padding: 5px 20px;
+  text-align: center;
+  border: 2px solid #006992;
+  border-radius: 10px;
+  background-color: #ffc145;
+}
+
+.clear {
+  clear: both;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  li {
+    background-color: rgb(255, 255, 255);
+    min-height: 50px;
+    margin: 5px 0 5px 0px;
+    text-align: left;
+    padding: 0 0 0 0px;
+
+    p {
+      width: 70%;
+      margin: 0;
+      float: left;
+      font-size: 1em;
+      font-weight: bold;
+      padding: 0 0 0 10px;
+      text-align: left;
+      color: #e84855;
+    }
+  }
+}
+
+#inputLi {
+  width: 70%;
+  height: 50px;
+  padding: 0 5px 0 10px;
+  margin: 0px 0 20px 0;
+  float: left;
+  border: 0;
+  border-radius: 10px;
+}
+
+#edit_button {
+  float: right;
+  background-color: rgb(65, 65, 65);
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  color: wheat;
+  &:hover {
+    background-color: #fff;
+    color: #ff6b6c;
+    transition: 100ms;
+    border: 4px solid #ff6b6c;
+    font-size: 1.5em;
+  }
+}
+
+#add_button {
+  float: right;
+  background-color: #345995;
+  border: 2px solid #345995;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  font-size: 0.52em;
+  color: #ffffff;
+  &:hover {
+    background-color: rgb(255, 255, 255);
+    color: #345995;
+    border: 5px solid #345995;
+    transition: 100ms;
+  }
+}
+
+#delete_button {
+  float: right;
+  background-color: coral;
+  border: 5px solid #ffffff;
+  width: 50px;
+  height: 50px;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ffffff;
+  &:hover {
+    background-color: rgb(255, 255, 255);
+    color: orangered;
+    font-size: 2em;
+    border: 5px solid orangered;
+    transition: 100ms;
+  }
+}
+
+.acceptEdit,
+.declineEdit {
+  float: right;
+  background-color: #345995;
+  border: 5px solid white;
+  height: 50px;
+  width: 50px;
+  font-size: 1.5em;
+  color: #ffffff;
+  &:hover {
+    background-color: rgb(255, 255, 255);
+    color: #345995;
+    border: 5px solid #345995;
+    transition: 200ms;
+  }
+}
+
+.editInput {
+  border: 1px solid #ffc145;
+  background: #f9dc5c;
+  color: #345995;
+  height: 25px;
+  width: 60%;
+  padding: 5px;
+  position: relative;
+  top: 5px;
+}
+
+.editForm {
+  width: 100%;
+}
